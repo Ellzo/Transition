@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">transitionExperiment</string>
+    <string name="circle">circle</string>
+    <string name="rectangle">rectangle</string>
+    <string name="android">android</string>
+    <string name="square">square</string>
+</resources>

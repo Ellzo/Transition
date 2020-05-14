@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shapes_dimens">60dp</dimen>
+    <dimen name="shpes_margin">20dp</dimen>
+    <dimen name="rec_height">30dp</dimen>
+</resources>

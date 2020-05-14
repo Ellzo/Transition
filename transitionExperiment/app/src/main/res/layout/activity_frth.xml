@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".frthAct">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="@integer/grid_columns">
+
+        <ImageView
+            android:id="@+id/rectangle"
+            style="@style/shapes_style"
+            android:layout_height="@dimen/rec_height"
+            android:onClick="sharedTransmition"
+            android:background="@drawable/rectangle"
+            android:transitionName="@string/rectangle" />
+
+        <ImageView
+            android:id="@+id/square"
+            style="@style/shapes_style"
+            android:onClick="fadeActivity"
+            android:background="@drawable/square"
+            android:transitionName="@string/square" />
+
+        <ImageView
+            android:id="@+id/circle"
+            style="@style/shapes_style"
+            android:onClick="explodeActivity"
+            android:background="@drawable/circle"
+            android:transitionName="@string/circle" />
+
+        <ImageView
+            android:id="@+id/android"
+            style="@style/shapes_style"
+            android:onClick="rotateView"
+            android:src="@drawable/android"
+            android:transitionName="@string/android" />
+
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
